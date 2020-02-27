@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <com.stx.xhb.xbanner.XBanner
+       android:id="@+id/xb"
+       android:layout_width="match_parent"
+       android:layout_height="200dp">
+
+   </com.stx.xhb.xbanner.XBanner>
+   <TextView
+       android:gravity="center"
+       android:textSize="20dp"
+       android:text="魔力时尚"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <ListView
+       android:id="@+id/lv"
+       android:layout_width="match_parent"
+       android:layout_height="200dp">
+
+   </ListView>
+   <TextView
+       android:gravity="center"
+       android:textSize="20dp"
+       android:text="品质生活"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+   <GridView
+       android:id="@+id/gv"
+       android:numColumns="2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </GridView>
+
+</LinearLayout>
